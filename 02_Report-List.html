@@ -1,0 +1,817 @@
+<html>
+    <head>
+        <title>Jason</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+        <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="./css/style.css" type="text/css">
+        <link rel="stylesheet" href="./css/responsive.css" type="text/css">
+    </head>
+    <body>
+
+        <div class="dashboard-sec">
+            <!-- Dashboard Header -->
+
+                <div class="dashboard-header">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12 col-sm-12 dash-left">
+                            <img src="./images/logo.png">
+                        </div>
+
+
+                        <div class="col-lg-10 col-md-12 col-sm-12 dash-right">
+                            <div class="login-hd-details">
+                                <div class="login-hd-left d-flex align-items-center" >
+                                    <img src="./images/Hamburger.png">
+                                    <h2>Manage Report</h2>
+                                </div>
+                                <div class="login-hd-right d-flex align-items-center ">
+                                    <div class="profile-intial">
+                                        <p>CH</p>
+                                    </div>
+                                    <div class="profile-detail d-flex align-items-baseline">
+                                        <div class="profile-name-g">
+                                            <h2>Chris Hemsworth</h2>
+                                            <p>User Level 1</p>
+                                        </div>
+                                      <a href="#" > <img src="./images/down-arrow.png"> </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- End Dashboard Header -->
+
+
+            <!-- Dashboard Details -->
+
+                <div class="dash-board-det">
+                    <div class="filter-sec d-flex align-items-center w-bg flex-wrap mb-3">
+                    
+                        <div class="filter-rgt d-flex align-items-center flex-wrap ">
+                            <h2 >Filter By</h2>
+                            <div class="rgt-bd">
+                            <select class="select-box bg-grey ">
+                                <option>Region</option>
+                            </select></div>
+                            <input type="date" class="date-box ">
+                            <input type="date" class="date-box">
+                            <select class="select-box">
+                                <option>select market</option>
+                            </select>
+                            <select class="select-box">
+                                <option>select market</option>
+                            </select>
+                            <a href="#" class="sett">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <path d="M478.213,163.264l-46.805-80.939c-5.099-9.344-16.107-14.229-27.648-9.963l-52.885,21.248    c-10.048-7.232-20.608-13.376-31.531-18.304L311.301,19.2C309.936,8.256,300.443,0,289.221,0h-93.867    c-11.221,0-20.715,8.256-22.059,19.008l-8.064,56.277c-10.581,4.8-20.971,10.859-31.467,18.325L80.731,72.299    c-10.197-3.925-22.357,0.491-27.435,9.771L6.405,163.157c-5.632,9.557-3.307,21.952,5.44,28.864l44.821,35.029    c-0.704,6.763-1.045,12.672-1.045,18.283s0.341,11.52,1.024,18.283l-44.843,35.051c-8.555,6.763-10.901,18.752-5.44,28.736    l46.805,80.96c5.099,9.323,16.128,14.208,27.669,9.941l52.885-21.248c10.048,7.232,20.608,13.376,31.531,18.304l8.043,56.085    c1.344,10.965,10.837,19.221,22.059,19.221h73.515c3.989,0,7.616-2.219,9.451-5.739c1.835-3.52,1.557-7.765-0.704-11.029    c-16.32-23.381-24.96-50.795-24.96-79.232c0-13.269,1.941-26.56,5.781-39.509c0.981-3.328,0.299-6.912-1.856-9.643    c-2.155-2.709-5.461-4.16-8.939-4.053c-1.152,0.064-2.283,0.213-5.184,0.576c-53.056,0-96.213-43.157-96.213-96.213    c0-53.056,43.157-96.235,96.213-96.235c53.056,0,96.213,43.157,96.021,97.984c-0.149,1.131-0.299,2.261-0.363,3.413    c-0.171,3.477,1.344,6.805,4.053,8.939c2.731,2.155,6.336,2.795,9.643,1.856c20.757-6.187,41.216-7.659,64.384-3.456    c2.837,0.512,5.952-0.768,8.341-2.539c2.368-1.771,3.947-5.056,4.267-8c0.043-0.384,0.149-2.112,0.149-2.496    c0-6.635-0.469-12.885-1.024-18.283L472.752,192C481.307,185.259,483.653,173.269,478.213,163.264z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M497.989,298.667c-5.888,0-10.667,4.779-10.667,10.667v26.027c-16.085-28.309-48.213-58.027-96-58.027    c-64.704,0-117.333,52.629-117.333,117.333S326.619,512,391.323,512c5.888,0,10.667-4.779,10.667-10.667    c0-5.888-4.779-10.667-10.667-10.667c-52.928,0-96-43.072-96-96s43.072-96,96-96c50.304,0,77.973,41.557,84.779,64h-42.112    c-5.888,0-10.667,4.779-10.667,10.667c0,5.888,4.779,10.667,10.667,10.667h64c5.888,0,10.667-4.779,10.667-10.667v-64    C508.656,303.445,503.899,298.667,497.989,298.667z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    </svg>
+                            </a>
+                            
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="filter-table w-bg p-0">
+                            <div class="filt-tb-hd d-flex align-items-center justify-content-between">
+                              <div class="filt-l">
+                                <h2>Daily Business Summary</h2>
+                              </div>
+                              <div class="filt-r">
+                                <button class="Email-btn-g">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path d="M467,61H45c-6.927,0-13.412,1.703-19.279,4.51L255,294.789l51.389-49.387c0,0,0.004-0.005,0.005-0.007    c0.001-0.002,0.005-0.004,0.005-0.004L486.286,65.514C480.418,62.705,473.929,61,467,61z"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path d="M507.496,86.728L338.213,256.002L507.49,425.279c2.807-5.867,4.51-12.352,4.51-19.279V106    C512,99.077,510.301,92.593,507.496,86.728z"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path d="M4.51,86.721C1.703,92.588,0,99.073,0,106v300c0,6.923,1.701,13.409,4.506,19.274L173.789,256L4.51,86.721z"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path d="M317.002,277.213l-51.396,49.393c-2.93,2.93-6.768,4.395-10.605,4.395s-7.676-1.465-10.605-4.395L195,277.211    L25.714,446.486C31.582,449.295,38.071,451,45,451h422c6.927,0,13.412-1.703,19.279-4.51L317.002,277.213z"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        </svg>
+                                        <span>Email Report</span>
+                                </button>
+                                <button class="dwn-btn-g">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"><g><path d="m423.04 216.42c-10.47-10.33-24.33-16.02-39.04-16.02-14.85 0-28.81 5.78-39.31 16.29l-32.69 32.68v-193.37c0-30.88-25.12-56-56-56s-56 25.12-56 56v193.37l-32.19-32.19c-10.5-10.5-25.09-16.51-40.05-16.51h-.19c-14.94.05-28.84 5.84-39.15 16.29-10.33 10.47-16.02 24.33-16.02 39.04 0 14.85 5.78 28.81 16.29 39.31l134.78 134.79c8.97 8.97 20.75 13.45 32.53 13.45s23.56-4.48 32.53-13.45l134.29-134.29c10.54-10.54 16.56-25.21 16.51-40.24-.05-14.94-5.84-28.84-16.29-39.15z"/><path d="m496 512h-24c-8.836 0-16-7.164-16-16s7.164-16 16-16h24c8.836 0 16 7.164 16 16s-7.164 16-16 16z"/><path d="m40 512h-24c-8.836 0-16-7.164-16-16s7.164-16 16-16h24c8.836 0 16 7.164 16 16s-7.164 16-16 16z"/><path d="m416 512h-320c-8.836 0-16-7.164-16-16s7.164-16 16-16h320c8.836 0 16 7.164 16 16s-7.164 16-16 16z"/></g></svg>
+                                        <span>Download / Export</span>
+                                </button>
+                                </div>
+                            </div>
+
+                            <div class="table-det">
+                                <div class="table-responsive">
+                                    <table id="tab-li" class="mb-3">
+                                        <thead>
+                                            <tr>
+                                                <th>#REF</th>
+                                                <th colspan="3">Region</th colspan="3">
+                                                <th colspan="3">Ms/La</th>
+                                                <th colspan="3">Gray</th>
+                                                <th colspan="3">Region</th>
+                                                <th colspan="3">Ms/La</th>
+                                                <th colspan="3">Gray</th>
+                                                
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr class="pink-td">
+                                                <td>Sales</td>                                  
+                                                <td>Daily</td>
+                                                <td>WTD</td>                                    
+                                                <td>WTD</td>
+                                                <td>Daily</td>
+                                                <td>WTD</td>                                    
+                                                <td>WTD</td>
+                                        
+                                                <td>Daily</td>
+                                                <td>WTD</td>                                    
+                                                <td>WTD</td>
+                                        
+                                                <td>Daily</td>
+                                                <td>WTD</td>                                    
+                                                <td>WTD</td>
+                                        
+                                                <td>Daily</td>
+                                                <td>WTD</td>                                    
+                                                <td>WTD</td>
+                                        
+                                                <td>Daily</td>
+                                                <td>WTD</td>                                    
+                                                <td>WTD</td>
+                                        
+                                        
+                                            </tr>
+                                            <tr>
+                                                <td>Net Sales $</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>#DIV/0!</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+                                            <tr>
+                                                <td>%Growth Vs. Last Year</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>#DIV/0!</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+                                            <tr>
+                                                <td>Fore Casting %</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>#DIV/0!</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+                                            <tr>
+                                                <td>B(W) Sys Forecast</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>#DIV/0!</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+                                            <tr>
+                                                <td>B(W) Mgr. Forecast$</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>#DIV/0!</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+                                            <tr>
+                                                <td>GCA $</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>#DIV/0!</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+                                            <tr>
+                                                <td>Transaction Growth %</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>#DIV/0!</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+                                            <tr>
+                                                <td>Guest Check Growth %</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>#DIV/0!</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+                                            <tr>
+                                                <td>Abandons</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>#DIV/0!</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+
+                                            <tr class="pink-td">
+                                                <td>SERVICE</td>                                  
+                                                <td>Daily</td>
+                                                <td>WTD</td>                                    
+                                                <td>WTD</td>
+                                                <td>Daily</td>
+                                                <td>WTD</td>                                    
+                                                <td>WTD</td>
+                                        
+                                                <td>Daily</td>
+                                                <td>WTD</td>                                    
+                                                <td>WTD</td>
+                                        
+                                                <td>Daily</td>
+                                                <td>WTD</td>                                    
+                                                <td>WTD</td>
+                                        
+                                                <td>Daily</td>
+                                                <td>WTD</td>                                    
+                                                <td>WTD</td>
+                                        
+                                                <td>Daily</td>
+                                                <td>WTD</td>                                    
+                                                <td>WTD</td>
+                                        
+                                        
+                                            </tr>
+
+
+                                            <tr>
+                                                <td>Survey Count</td>                                  
+                                                <td>0</td>
+                                                <td>0</td>                                    
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>                                    
+                                                <td>0</td>
+                                        
+                                                <td>0</td>
+                                                <td>0</td>                                    
+                                                <td>0</td>
+
+                                                <td>0</td>
+                                                <td>0</td>                                    
+                                                <td>0</td>
+                                        
+
+                                                <td>0</td>
+                                                <td>0</td>                                    
+                                                <td>0</td>
+                                        
+                                                <td>0</td>
+                                                <td>0</td>                                    
+                                                <td>0</td>
+                                        
+                                        
+                                            </tr>                                            
+                                            <tr>
+                                                <td>B2B%</td>                                  
+                                                <td>0.00%</td>
+                                                <td>0.00%</td>                                    
+                                                <td>0.00%</td>
+                                                <td>0.00%</td>
+                                                <td>0.00%</td>                                    
+                                                <td>0.00%</td>
+                                        
+                                                <td>0.00%</td>
+                                                <td>0.00%</td>                                    
+                                                <td>0.00%</td>
+
+                                                <td>0.00%</td>
+                                                <td>0.00%</td>                                    
+                                                <td>0.00%</td>
+                                        
+
+                                                <td>0.00%</td>
+                                                <td>0.00%</td>                                    
+                                                <td>0.00%</td>
+                                        
+                                                <td>0.00%</td>
+                                                <td>0.00%</td>                                    
+                                                <td>0.00%</td>
+                                        
+                                        
+                                            </tr>
+                                            <tr>
+                                                <td># Deliveries</td>                                  
+                                                <td>0</td>
+                                                <td>0</td>                                    
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td>0</td>                                    
+                                                <td>0</td>
+                                        
+                                                <td>0</td>
+                                                <td>0</td>                                    
+                                                <td>0</td>
+
+                                                <td>0</td>
+                                                <td>0</td>                                    
+                                                <td>0</td>
+                                        
+
+                                                <td>0</td>
+                                                <td>0</td>                                    
+                                                <td>0</td>
+                                        
+                                                <td>0</td>
+                                                <td>0</td>                                    
+                                                <td>0</td>
+                                        
+                                        
+                                            </tr>  
+
+                                            <tr>
+                                                <td>Make  4 %</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>-</td>
+                                                <td>#DIV/0!</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+
+                                            
+                                            <tr>
+                                                <td>Production 15%</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>-</td>
+                                                <td>#DIV/0!</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+
+                                            <tr>
+                                                <td>Avg. Production Time</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>-</td>
+                                                <td>#DIV/0!</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+
+                                            
+                                            <tr>
+                                                <td>Avg. Production Time</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>-</td>
+                                                <td>#DIV/0!</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td>% 30</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>-</td>
+                                                <td>#DIV/0!</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td>% 45</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>-</td>
+                                                <td>#DIV/0!</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+                                            <tr>
+                                                <td>Rack 5</td>                                  
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+
+                                                <td>-</td>
+                                                <td>#DIV/0!</td>                                    
+                                                <td>-</td>
+                                        
+
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                                <td>-</td>
+                                                <td>-</td>                                    
+                                                <td>-</td>
+                                        
+                                        
+                                            </tr>
+
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+
+                    </div>
+
+                </div>
+              <!-- End Dashboard Details -->
+        </div>
+
+    </body>
+
+</html>
+
